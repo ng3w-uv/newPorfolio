@@ -11,7 +11,7 @@ const links = [
 export default function Header() {
   return (
     <header className="w-full flex items-center justify-between py-6">
-      <div className="text-[32px] font-medium tracking-tighter font-walsheim">DR.</div>
+      <div className="text-[32px] font-medium tracking-tighter font-walsheim">YC.</div>
       <nav className="hidden md:flex space-x-8 text-sm items-center">
         {links.map(link => (
           <a
