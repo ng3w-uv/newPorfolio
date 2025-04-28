@@ -22,7 +22,7 @@ export default function Contact() {
         </a>
         <span className="hidden sm:inline-block mx-4 text-gray-400">|</span>
         <a
-          href="https://linkedin.com/"
+          href="https://linkedin.com/in/yuvraj-ng3w"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-700 hover:text-primary text-base transition-colors"
@@ -32,7 +32,7 @@ export default function Contact() {
         </a>
         <span className="hidden sm:inline-block mx-4 text-gray-400">|</span>
         <a
-          href="https://github.com/"
+          href="https://github.com/ng3w-uv"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-700 hover:text-primary text-base transition-colors"

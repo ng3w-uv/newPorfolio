@@ -34,7 +34,7 @@ export default function Header() {
       </nav>
       <div className="flex items-center gap-2">
         <a
-          href="https://github.com/"
+          href="https://github.com/ng3w-uv"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2 rounded hover:bg-accent/10"
@@ -42,7 +42,7 @@ export default function Header() {
           <Github size={20} />
         </a>
         <a
-          href="https://linkedin.com/"
+          href="https://linkedin.com/in/yuvraj-ng3w"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2 rounded hover:bg-accent/10"
