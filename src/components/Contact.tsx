@@ -14,11 +14,11 @@ export default function Contact() {
       </div>
       <div className="flex flex-col gap-3 sm:flex-row items-start sm:items-center font-walsheim">
         <a
-          href="mailto:hello@email.com"
+          href="mailto:ng3w.uv@gmail.com"
           className="flex items-center gap-2 text-gray-700 hover:text-primary text-base transition-colors"
-          aria-label="Email hello@email.com"
+          aria-label="Email ng3w.uv@gmail.com"
         >
-          <Mail size={20} /> hello@email.com
+          <Mail size={20} /> ng3w.uv@gmail.com
         </a>
         <span className="hidden sm:inline-block mx-4 text-gray-400">|</span>
         <a

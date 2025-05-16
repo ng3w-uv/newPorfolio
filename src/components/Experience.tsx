@@ -5,12 +5,11 @@ const experience = [
     title: "Software Developer Engineer 1",
     dates: "June 2023 - Present",
     bullets: [
-      "Led migration of a page from legacy codebase to React, improving performance and modularity.",
-      "Implemented caching and query optimization techniques to boost performance and resolved critical slow queries, ensuring smooth data retrieval and processing.",
-      "Created a comprehensive panel for uploading vehicle prices at a national level, leveraging RabbitMQ for efficient queue management, which significantly streamlined operations, saving time and resources.",
-      "Proactively reduced INP (Interaction to Next Paint) from 300-500ms to under 200ms, enhancing user experience on key interfaces.",
-      "Designed and developed a dynamic feature allowing client-side price saving, with runtime named resolution in C# via dependency injection and factory patterns, enhancing flexibility and maintainability in code architecture.",
-      "Consolidated redundant code by implementing a shared library for multiget caching functionality, improving efficiency and maintainability.",
+      "Improved page load speed by 30% and enhanced modularity by leading the migration of a high-traffic pricing page from a legacy codebase to React, enabling faster development cycles and better maintainability.",
+      "Received 'Developer of the Month' award for architecting a dynamic, client-specific price-saving feature using runtime named resolution in C# with Dependency Injection and Factory Design Patterns, enabling seamless onboarding of new OEMs with minimal code changes and significantly reducing integration time.",
+      "Saved 50+ hours/month of manual effort by building a robust internal panel for uploading vehicle prices nationwide, using RabbitMQ for chunked queue processing and message handling, which improved reliability and throughput by over 60%.",
+      "Improved Core Web Vitals score and SEO performance by reducing INP (Interaction to Next Paint) from 450ms to under 200ms through frontend optimizations, ensuring seamless user interaction and enhancing perceived responsiveness.",
+      "Reduced code duplication by 40% and improved system maintainability by developing a shared caching utility library reused across multiple services, standardizing data-fetching logic, and reducing onboarding time for new developers.",
     ],
   },
   {
@@ -19,11 +18,8 @@ const experience = [
     title: "Software Developer Intern",
     dates: "Aug 2022 - Dec 2022",
     bullets: [
-      "Created a project that calculates KPIs in real time using Azure Functions. Time interval calculation and parsing were performed on the NodeJs runtime stack using Javascript.",
-      "Using the concepts of object-oriented programming, we combined all the actions under a single trigger, eliminating unnecessary triggers.",
-      "In addition to being cost-effective, the solution also reduced the response time by 20 seconds.",
-      "Since Azure Time Series Insights will be deprecated by 2025, we have also provided an alternative solution using Azure Data Explorer.",
-      "At the backend, an Alarm Management solution was created using Azure Bus Service queue triggers.",
+      "Built a real-time KPI monitoring system using Azure Functions and Node.js, reducing response time by 20 seconds through consolidated trigger logic and efficient event parsing.",
+      "Proposed a scalable alternative to Azure Time Series Insights using Azure Data Explorer and implemented alarm management with Azure Service Bus queues, ensuring a future-proof and cost-effective architecture",
     ],
   },
   {

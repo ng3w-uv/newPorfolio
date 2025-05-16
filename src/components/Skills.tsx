@@ -1,19 +1,26 @@
 
 const skills = [
+  "C sharp",
+  "C",
+  "C ++",
+  ".NET Framework",
+  "Node.js",
+  "Python",
   "React",
   "TypeScript",
   "Next.js",
-  "Tailwind CSS",
-  "Node.js",
-  "Python",
   "Redux",
   "SQL",
-  "Selenium",
+  "MongoDB",
   "PHP",
   "Git",
   "REST APIs",
-  "GraphQL",
+  "RabbitMQ",
   "Jest",
+  "Azure Functions",
+  "Database Management System (DBMS)",
+  "Object Oriented Programming (OOP)",
+  "Problem Solving"
 ];
 
 export default function Skills() {

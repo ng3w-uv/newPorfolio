@@ -1,15 +1,15 @@
 const education = [
   {
-    school: "University of Toronto",
-    location: "Canada",
-    degree: "Bachelor's degree in communication",
-    dates: "2018 / 2021",
+    school: "Northeastern University",
+    location: "Boston/ MA",
+    degree: "Master's in Computer Science",
+    dates: "Fall 2025",
   },
   {
-    school: "ETM Ibn Rochd - H2IT",
-    location: "Canada",
-    degree: "Certified Fullstack Web Developer",
-    dates: "2018 / 2021",
+    school: "MIT World Peace University",
+    location: "Pune/ India",
+    degree: "B.Tech in Computer Science and Engineering",
+    dates: "2019 / 2023",
   },
 ];
 

@@ -24,9 +24,9 @@ export default function Hero() {
           Yuvraj <br /><span className="block md:inline text-blue-400">Chauhan</span>
         </h1>
         <p className="text-gray-600 text-lg mt-6 mb-10 font-walsheim max-w-2xl text-left leading-relaxed">
-          Software Developer Engineer at Carwale with a strong foundation in backend and frontend technologies. Skilled in system optimization, cloud solutions, and scalable architecture design, with hands-on experience in React, C#, Node.js, Azure, and RabbitMQ.
+          Incoming MS in Computer Science student at Northeastern University, Boston with experience in building scalable backend systems and impactful health-tech solutions. Passionate about distributed systems, developer tools, and using technology to solve real-world problems.
           <br className="my-3" />
-          Passionate about solving real-world problems through technology, with notable achievements in competitive coding and a proven track record of delivering impactful projects like Druv – a health records management app aligned with India’s digital health initiatives.
+          Skilled in: C++, Java, Python, JavaScript, Node.js, React, Golang, C#, Flutter, TypeScript, MySQL, MongoDB, RabbitMQ, Firebase, Azure Functions, and OCR technologies.
         </p>
         <div className="flex flex-col sm:flex-row items-start gap-4 mt-6 max-w-screen-sm">
           <a href="mailto:ng3w.uv@gmail.com" className="w-full sm:w-auto">
