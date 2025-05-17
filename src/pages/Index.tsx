@@ -26,7 +26,7 @@ export default function Index() {
         </div>
       </div>
       <footer className="text-xs text-muted text-center py-12 border-t border-gray-200 mt-24 font-walsheim" aria-label="Site footer">
-        &copy; {new Date().getFullYear()} Yuvraj Chauhan. All rights reserved.
+        &copy; {new Date().getFullYear()} Yuvraj Anupam Chauhan. All rights reserved.
       </footer>
     </div>
   );
