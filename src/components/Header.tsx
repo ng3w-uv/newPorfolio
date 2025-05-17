@@ -43,7 +43,7 @@ export default function Header() {
           <Github size={20} />
         </a>
         <a
-          href="https://linkedin.com/in/yuvraj-ng3w"
+          href="https://linkedin.com/in/chauhanyuv"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2 rounded hover:bg-accent/10"

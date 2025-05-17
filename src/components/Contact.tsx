@@ -21,7 +21,7 @@ export default function Contact() {
         </a>
         <span className="hidden sm:inline-block mx-4 text-gray-400">|</span>
         <a
-          href="https://linkedin.com/in/yuvraj-ng3w"
+          href="https://linkedin.com/in/chauhanyuv"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-700 hover:text-primary text-base transition-colors"

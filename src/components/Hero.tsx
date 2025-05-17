@@ -40,7 +40,7 @@ export default function Hero() {
               Send an email
             </Button>
           </a>
-          <a href="https://linkedin.com/in/yuvraj-ng3w" target="_blank" className="w-full sm:w-auto">
+          <a href="https://linkedin.com/in/chauhanyuv" target="_blank" className="w-full sm:w-auto">
             <Button variant="outline" className="w-full sm:w-auto flex items-center gap-2 px-6 py-2 h-12">
               <Linkedin size={18} />
               LinkedIn

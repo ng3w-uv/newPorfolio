@@ -8,42 +8,25 @@ interface Project {
   live?: string;
 }
 
+// Flag to enable/disable project details linking
+const ENABLE_PROJECT_DETAILS = false;
+
 const projects: Project[] = [
   {
-    id: "intense-proxy",
-    title: "IntenseProxy",
-    desc: "Proxy provider website including authentication, dashboard and dynamic features",
-    tech: "React · Bootstrap · Styled Components",
-    image: "https://placehold.co/600x400/2563eb/ffffff?text=IntenseProxy",
-    github: "#",
-    live: "#",
+    id: "health-manager-app",
+    title: "Druv Health Manager App",
+    desc: "Designed and developed Druv, a cross-platform health records app enabling secure digitization, storage, and UHI-based sharing of medical documents, aligned with India’s ABDM and ABHA standards.",
+    tech: "Flutter · TypeScript · PaddleOCR · Firebase",
+    image: "https://i.ibb.co/0RpT351w/Whats-App-Image-2025-05-17-at-23-32-43.jpg",
+    github: "https://github.com/druvhealthtech/backend",
   },
   {
-    id: "aape-coin",
-    title: "$AAPE Coin",
-    desc: "Site for a BSC based coin called $AAPE",
-    tech: "Vue · Nuxt · Netlify",
-    image: "https://placehold.co/600x400/7c3aed/ffffff?text=AAPE+Coin",
-    github: "#",
-    live: "#",
-  },
-  {
-    id: "portfolio-v3",
-    title: "Portfolio V3",
-    desc: "Personal portfolio website with modern design and animations",
-    tech: "React · TypeScript · Tailwind CSS",
-    image: "https://placehold.co/600x400/059669/ffffff?text=Portfolio+V3",
-    github: "#",
-    live: "#",
-  },
-  {
-    id: "task-manager",
-    title: "Task Manager",
-    desc: "A full-stack task management application with real-time updates",
-    tech: "Next.js · Prisma · PostgreSQL",
-    image: "https://placehold.co/600x400/d97706/ffffff?text=Task+Manager",
-    github: "#",
-    live: "#",
+    id: "kumbh-mela-management",
+    title: "Kumbh Mela Management",
+    desc: "Developed a PHP-MySQL-based web solution for Kumbh Mela, enabling online pilgrim registration and backend-driven ghat/slot allocation to prevent overcrowding and include gender-sensitive features like Pink Ghats.",
+    tech: "MySQL · PHP",
+    image: "https://i.ibb.co/7NjqCPDB/Data-base-schema.jpg",
+    github: "https://github.com/ng3w-uv/Kumbh-mela",
   }
 ];
 
@@ -52,19 +35,34 @@ import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }: { project: Project }) => (
   <div className="bg-[image:var(--card-gradient)] rounded-xl shadow-md border border-gray-100 flex flex-col overflow-hidden min-w-[300px] max-w-sm w-full group hover:shadow-lg transition-all duration-300" tabIndex={0} aria-label={`Project: ${project.title}`}>
-    <Link to={`/projects/${project.id}`} className="block overflow-hidden">
-      <img
-        src={project.image}
-        alt={project.title}
-        className="w-full aspect-video object-cover transition-transform duration-300 group-hover:scale-105"
-        loading="lazy"
-      />
-    </Link>
+    {ENABLE_PROJECT_DETAILS ? (
+      <Link to={`/projects/${project.id}`} className="block overflow-hidden">
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full aspect-video object-cover transition-transform duration-300 group-hover:scale-105"
+          loading="lazy"
+        />
+      </Link>
+    ) : (
+      <div className="block overflow-hidden">
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full aspect-video object-cover transition-transform duration-300 group-hover:scale-105"
+          loading="lazy"
+        />
+      </div>
+    )}
     <div className="p-4 flex-1 flex flex-col">
       <div className="flex items-center gap-2 justify-between">
-        <Link to={`/projects/${project.id}`} className="font-semibold text-lg hover:text-primary transition-colors">
-          {project.title}
-        </Link>
+        {ENABLE_PROJECT_DETAILS ? (
+          <Link to={`/projects/${project.id}`} className="font-semibold text-lg hover:text-primary transition-colors">
+            {project.title}
+          </Link>
+        ) : (
+          <div className="font-semibold text-lg">{project.title}</div>
+        )}
         <div className="flex gap-2">
           {project.github && (
             <a href={project.github} target="_blank" rel="noopener noreferrer" aria-label={`${project.title} on GitHub`} className="hover:scale-110 transition-transform">
