@@ -23,11 +23,16 @@ export default function Hero() {
         >
           Yuvraj <br /><span className="block md:inline text-blue-400">Chauhan</span>
         </h1>
-        <p className="text-gray-600 text-lg mt-6 mb-10 font-walsheim max-w-2xl text-left leading-relaxed">
-          Incoming MS in Computer Science student at Northeastern University, Boston with experience in building scalable backend systems and impactful health-tech solutions. Passionate about distributed systems, developer tools, and using technology to solve real-world problems.
-          <br className="my-3" />
-          Skilled in: C++, Java, Python, JavaScript, Node.js, React, Golang, C#, Flutter, TypeScript, MySQL, MongoDB, RabbitMQ, Firebase, Azure Functions, and OCR technologies.
-        </p>
+        <div 
+          className="text-gray-600 text-lg mt-6 mb-10 font-walsheim max-w-2xl text-left leading-relaxed"
+          dangerouslySetInnerHTML={{
+            __html: `
+              Incoming <b>MS in Computer Science</b> student at <b>Northeastern University, Boston</b> with experience in building <b>scalable backend systems</b> and impactful <b>health-tech solutions</b>. Passionate about <b>distributed systems</b>, <b>developer tools</b>, and using technology to solve real-world problems.
+              <br class="my-3" />
+              Skilled in: <b>C++</b>, <b>Java</b>, <b>Python</b>, <b>JavaScript</b>, <b>Node.js</b>, <b>React</b>, <b>Golang</b>, <b>C#</b>, <b>Flutter</b>, <b>TypeScript</b>, <b>MySQL</b>, <b>MongoDB</b>, <b>RabbitMQ</b>, <b>Firebase</b>, <b>Azure Functions</b>, and <b>OCR</b> technologies.
+            `
+          }}
+        />
         <div className="flex flex-col sm:flex-row items-start gap-4 mt-6 max-w-screen-sm">
           <a href="mailto:ng3w.uv@gmail.com" className="w-full sm:w-auto">
             <Button variant="outline" className="w-full sm:w-auto flex items-center gap-2 px-6 py-2 h-12">

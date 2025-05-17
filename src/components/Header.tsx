@@ -23,8 +23,9 @@ export default function Header() {
           </a>
         ))}
         <a
-          href="/resume.pdf"
-          download
+          href="https://drive.google.com/file/d/13HmVXwIVibTBoAd7JdyJlKlVDcfSb_RU/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
           className="ml-6"
         >
           <Button size="lg" className="bg-primary text-white font-medium px-7 py-2 text-base text-center rounded-lg shadow hover:bg-primary/80 transition-all">

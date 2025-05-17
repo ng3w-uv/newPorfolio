@@ -3,8 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Contact() {
   const handleResumeDownload = () => {
-    // This would typically trigger a file download
-    window.open('/resume.pdf', '_blank');
+    window.open('https://drive.google.com/file/d/13HmVXwIVibTBoAd7JdyJlKlVDcfSb_RU/view?usp=sharing', '_blank');
   };
 
   return (
@@ -42,13 +41,15 @@ export default function Contact() {
         </a>
       </div>
       <div className="mt-8 flex items-center gap-2">
-        <button
-          onClick={handleResumeDownload}
+        <a
+          href="https://drive.google.com/file/d/13HmVXwIVibTBoAd7JdyJlKlVDcfSb_RU/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-700 hover:text-primary text-base transition-colors font-walsheim"
         >
           <Download size={20} />
           Download Resume
-        </button>
+        </a>
       </div>
     </section>
   );
