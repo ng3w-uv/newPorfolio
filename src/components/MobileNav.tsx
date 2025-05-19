@@ -19,9 +19,9 @@ export default function MobileNav() {
     }
   };
 
-  const handleResumeDownload = () => {
-    // This would typically trigger a file download
-    window.open('/resume.pdf', '_blank');
+  const handleResumeClick = () => {
+    window.open('https://drive.google.com/file/d/13HmVXwIVibTBoAd7JdyJlKlVDcfSb_RU/view?usp=sharing', '_blank');
+    setIsOpen(false);
   };
 
   return (
@@ -47,13 +47,16 @@ export default function MobileNav() {
               {section.label}
             </button>
           ))}
-          <button
+          <a
+            href="https://drive.google.com/file/d/13HmVXwIVibTBoAd7JdyJlKlVDcfSb_RU/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsOpen(false)}
             className="w-full text-left px-4 py-2 rounded-md hover:bg-gray-100 transition-colors flex items-center gap-2"
-            onClick={handleResumeDownload}
           >
             <Download size={16} />
             Resume
-          </button>
+          </a>
         </div>
       )}
     </div>
