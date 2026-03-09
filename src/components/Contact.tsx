@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Contact() {
   const handleResumeDownload = () => {
-    window.open('https://drive.google.com/file/d/13HmVXwIVibTBoAd7JdyJlKlVDcfSb_RU/view?usp=sharing', '_blank');
+    window.open('https://docs.google.com/document/d/1W19mFahxe62mdCOacLuuVFhjevZ5883Q/edit?usp=sharing&ouid=110729468448271303970&rtpof=true&sd=true', '_blank');
   };
 
   return (
