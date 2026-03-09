@@ -23,7 +23,7 @@ export default function Header() {
           </a>
         ))}
         <a
-          href="https://drive.google.com/file/d/13HmVXwIVibTBoAd7JdyJlKlVDcfSb_RU/view?usp=sharing"
+          href="https://docs.google.com/document/d/1W19mFahxe62mdCOacLuuVFhjevZ5883Q/edit?usp=sharing&ouid=110729468448271303970&rtpof=true&sd=true"
           target="_blank"
           rel="noopener noreferrer"
           className="ml-6"
