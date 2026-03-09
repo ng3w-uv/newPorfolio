@@ -27,7 +27,7 @@ export default function Hero() {
           className="text-gray-600 text-lg mt-6 mb-10 font-walsheim max-w-2xl text-left leading-relaxed"
           dangerouslySetInnerHTML={{
             __html: `
-              Incoming <b>MS in Computer Science</b> student at <b>Northeastern University, Boston</b> with experience in building <b>scalable backend systems</b> and impactful <b>health-tech solutions</b>. Passionate about <b>distributed systems</b>, <b>developer tools</b>, and using technology to solve real-world problems.
+              MS in <b>Computer Science</b> at <b>Northeastern University</b> with experience building <b>scalable backend systems</b> and <b>microservices used in production</b>. Previously engineered <b>pricing and caching systems</b> at <b>CarTrade</b>, improving <b>performance</b> and <b>reliability</b> across large datasets. Interested in <b>distributed systems</b>, <b>developer infrastructure</b>, and applying <b>AI</b> to real-world domains such as <b>healthcare</b>.
               <br class="my-3" />
               Skilled in: <b>C++</b>, <b>Java</b>, <b>Python</b>, <b>JavaScript</b>, <b>Node.js</b>, <b>React</b>, <b>Golang</b>, <b>C#</b>, <b>Flutter</b>, <b>TypeScript</b>, <b>MySQL</b>, <b>MongoDB</b>, <b>RabbitMQ</b>, <b>Firebase</b>, <b>Azure Functions</b>, and <b>OCR</b> technologies.
             `
